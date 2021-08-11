@@ -1,0 +1,24 @@
+INSERT into ogrenci values (1, 'Tunahan', 'Okunan', '123456'); 
+INSERT into ogrenci values (2, 'Ali', 'Yılmaz', '123'); 
+INSERT into ogrenci values (3, 'Rıdvan', 'Asya', '12'); 
+INSERT into ogrenci values (4, 'Servet', 'Dereci', '14'); 
+INSERT into ders values (1, 'Matematik', 10); 
+INSERT into ders values (2, 'Türkçe', 5); 
+INSERT into ders values (3, 'Fen', 3); 
+INSERT into ders values (4, 'Sosyal', 20); 
+INSERT into ders values (5, 'Resim', 25); 
+INSERT into ders values (6, 'Müzik', 15); 
+
+INSERT into ogrenci_ders values (1,1); 
+INSERT into ogrenci_ders values (1,2); 
+INSERT into ogrenci_ders values (1,3); 
+INSERT into ogrenci_ders values (1,4); 
+INSERT into ogrenci_ders values (1,5); 
+INSERT into ogrenci_ders values (1,6); 
+INSERT into ogrenci_ders values (2,1); 
+INSERT into ogrenci_ders values (2,2); 
+INSERT into ogrenci_ders values (2,4); 
+INSERT into ogrenci_ders values (3,1); 
+INSERT into ogrenci_ders values (3,2); 
+INSERT into ogrenci_ders values (3,3); 
+INSERT into ogrenci_ders values (4,3); 

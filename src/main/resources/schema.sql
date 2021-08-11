@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS ogrenci;  
+DROP TABLE IF EXISTS ders;  
+DROP TABLE IF EXISTS ogrenci_ders;  
+
+CREATE TABLE ogrenci (  
+id INT AUTO_INCREMENT  PRIMARY KEY,  
+adi VARCHAR(20) NOT NULL,  
+soyadi VARCHAR(20) NOT NULL,  
+numara VARCHAR(20) NOT NULL
+);  
+
+CREATE TABLE ders (  
+id INT AUTO_INCREMENT  PRIMARY KEY,  
+adi VARCHAR(20) NOT NULL,  
+kontejan INT NOT NULL
+);  
+
+CREATE TABLE ogrenci_ders (  
+ogrenci_id INT NOT NULL,
+ders_id INT NOT NULL
+);  
+

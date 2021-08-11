@@ -1,0 +1,30 @@
+2021-08-10 21:34:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OGRENCI" not found; SQL statement:
+select ogrenci0_.id as id1_1_, ogrenci0_.adi as adi2_1_, ogrenci0_.numara as numara3_1_, ogrenci0_.soyadi as soyadi4_1_ from ogrenci ogrenci0_ [42102-200]
+2021-08-10 21:35:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OGRENCI" not found; SQL statement:
+select ogrenci0_.id as id1_1_, ogrenci0_.adi as adi2_1_, ogrenci0_.numara as numara3_1_, ogrenci0_.soyadi as soyadi4_1_ from ogrenci ogrenci0_ [42102-200]
+2021-08-10 21:36:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OGRENCI" not found; SQL statement:
+select ogrenci0_.id as id1_1_, ogrenci0_.adi as adi2_1_, ogrenci0_.numara as numara3_1_, ogrenci0_.soyadi as soyadi4_1_ from ogrenci ogrenci0_ [42102-200]
+2021-08-10 21:40:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OGRENCI" not found; SQL statement:
+select ogrenci0_.id as id1_1_, ogrenci0_.adi as adi2_1_, ogrenci0_.numara as numara3_1_, ogrenci0_.soyadi as soyadi4_1_ from ogrenci ogrenci0_ [42102-200]
+2021-08-10 21:53:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE OGRENCI(ID IDENTITY NOT NULL PRIMARY KEY, ADI VARCHAR(20), SOYADI VARCHAR(20), NUMARA VARCHAR(20)[*]"; expected "FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE OGRENCI(id IDENTITY NOT NULL PRIMARY KEY, adi varchar(20), soyadi varchar(20), numara varchar(20) [42001-200]
+2021-08-10 21:53:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OGRENCI" already exists; SQL statement:
+CREATE TABLE OGRENCI(id IDENTITY NOT NULL PRIMARY KEY, adi varchar(20), soyadi varchar(20), numara varchar(20)) [42101-200]
+2021-08-10 21:54:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE DERS(ID IDENTITY NOT NULL PRIMARY KEY, ADI VARCHAR(20), KONTEJAN NUMBER))[*]"; SQL statement:
+CREATE TABLE DERS(id IDENTITY NOT NULL PRIMARY KEY, adı varchar(20), kontejan number)) [42000-200]
+2021-08-10 21:56:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE DERS(ID IDENTITY NOT NULL PRIMARY KEY, ADI VARCHAR(20), KONTEJAN NUMBER))[*]"; SQL statement:
+CREATE TABLE ders(id IDENTITY NOT NULL PRIMARY KEY, adı varchar(20), kontejan number)) [42000-200]
+2021-08-10 23:05:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'string' (DERS: ""KONTEJAN"" INT NOT NULL)"; SQL statement:
+update ders set adi=?, kontejan=? where id=? [22018-200]
+2021-08-10 23:29:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'string' (DERS: ""KONTEJAN"" INT NOT NULL)"; SQL statement:
+update ders set adi=?, kontejan=? where id=? [22018-200]
